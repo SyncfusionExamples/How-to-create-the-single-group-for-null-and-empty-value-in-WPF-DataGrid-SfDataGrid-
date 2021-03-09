@@ -1,9 +1,10 @@
 # How to create the single group for null and empty value in WPF DataGrid SfDataGrid
 
 ## About the sample
-This example illustrates how to create the single group for null and empty value in WPF DataGrid.
 
-By default, empty and null values are created the separate groups in SfDataGrid. You can able to create the single group for empty and null value by using Converter in GroupColumnDescription.
+This example illustrates how to create the single group for null and empty value in [WPF DataGrid](https://www.syncfusion.com/wpf-ui-controls/datagrid) (SfDataGrid).
+
+An empty and null values are created the separate groups in [WPF DataGrid](https://www.syncfusion.com/wpf-ui-controls/datagrid) (SfDataGrid). You can able to create the single group for empty and null value by using [Converter](https://help.syncfusion.com/cr/cref_files/wpf/Syncfusion.SfGrid.WPF~Syncfusion.UI.Xaml.Grid.GroupColumnDescription~ConverterProperty.html) in [GroupColumnDescription](https://help.syncfusion.com/cr/cref_files/wpf/Syncfusion.SfGrid.WPF~Syncfusion.UI.Xaml.Grid.GroupColumnDescription.html).
 
 ```C#
 dataGrid.GroupColumnDescriptions.Add(new GroupColumnDescription() { Converter = new GroupStringNullConverter(), ColumnName = "CustomerName" });
