@@ -29,5 +29,8 @@ public class GroupStringNullConverter: IValueConverter
 }
 
 ```
+
+KB article - [How to create the single group for null and empty value in WPF DataGrid SfDataGrid](https://www.syncfusion.com/kb/11224/how-to-create-the-single-group-for-null-and-empty-value-in-wpf-datagrid-sfdatagrid)
+
 ## Requirements to run the demo
 Visual Studio 2015 and above versions
